@@ -1,12 +1,9 @@
 import React from 'react';
 import {
   SafeAreaView,
-  ScrollView,
   StatusBar,
   StyleSheet,
-  Text,
   useColorScheme,
-  View,
 } from 'react-native';
 
 const Colors = {
@@ -15,6 +12,7 @@ const Colors = {
   black: '#000000',
   white: '#ffffff',
 };
+import ComponentsPresentationPage from './page/ComponentsPresentationPage';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -29,16 +27,7 @@ function App(): JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Text>Coucou</Text>
-        </View>
-      </ScrollView>
+      <ComponentsPresentationPage Colors={Colors} />
     </SafeAreaView>
   );
 }
