@@ -1,5 +1,5 @@
 module.exports = {
-  primaryColor: '#80EDB9',
-  secondaryColor: '#F6F6F4',
-  tertiaryColor: '#202020',
+  sapePrimary: '#80EDB9',
+  sapeSecondary: '#F6F6F4',
+  sapeTertiary: '#202020',
 };

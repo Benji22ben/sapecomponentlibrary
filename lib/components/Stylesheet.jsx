@@ -1,17 +1,25 @@
 import {StyleSheet} from 'react-native';
-import {primaryColor} from '../constants';
+import {sapePrimary, sapeTertiary} from '../constants';
 
 const baseStyle = StyleSheet.create({
-  touchable: {
-    backgroundColor: primaryColor,
-    paddingTop: 10,
-    paddingBottom: 10,
-    paddingLeft: 100,
-    paddingRight: 100,
+  touchableStyle: {
+    width: 325,
+    height: 50,
     justifyContent: 'center',
     alignItems: 'center',
     fontFamily: 'Century-Gothic',
   },
 });
 
-export default baseStyle;
+function touchableStyle(inverted) {
+  return {
+    backgroundColor: !inverted ? sapePrimary : sapeTertiary,
+  };
+}
+function touchableTextStyle(inverted) {
+  return {
+    color: inverted ? sapePrimary : sapeTertiary,
+  };
+}
+
+export {baseStyle, touchableStyle, touchableTextStyle};

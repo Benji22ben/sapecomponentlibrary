@@ -1,11 +1,26 @@
 import React from 'react';
-import {TouchableOpacity} from 'react-native';
-import baseStyle from './Stylesheet';
+import {TouchableOpacity, Text, View} from 'react-native';
+import {baseStyle, touchableStyle, touchableTextStyle} from './Stylesheet';
 
-function SapeTouchableOpacity({children = '', style, ...props}) {
+function SapeTouchableOpacity({
+  children = '',
+  style,
+  invertedColors = false,
+  text,
+  ...props
+}) {
   return (
-    <TouchableOpacity style={[baseStyle.touchable, style]}>
-      {children}
+    <TouchableOpacity
+      style={[baseStyle.touchableStyle, touchableStyle(invertedColors), style]}
+      {...props}>
+      <View>
+        {text ? (
+          <Text style={[touchableTextStyle(invertedColors)]}>{text}</Text>
+        ) : (
+          ''
+        )}
+        {children ?? children}
+      </View>
     </TouchableOpacity>
   );
 }

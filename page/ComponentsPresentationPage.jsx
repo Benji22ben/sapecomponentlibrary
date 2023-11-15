@@ -19,12 +19,12 @@ function ComponentsPresentationPage(Colors) {
           {backgroundColor: isDarkMode ? Colors.black : Colors.white},
         ]}>
         <Button>Button</Button>
-        <TouchableOpacity>
-          <Text>TouchableOpacity</Text>
-        </TouchableOpacity>
-        <TouchableHighlight>
-          <Text>TouchableHighlight</Text>
-        </TouchableHighlight>
+        <TouchableOpacity text="TouchableOpacity" />
+        <TouchableHighlight
+          onPress={() => console.log('Needed to see highlight')}
+          invertedColors
+          text="TouchableHighlight (inverted colors)"
+        />
       </View>
     </ScrollView>
   );
@@ -35,6 +35,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    gap: 10,
+    paddingTop: 50,
   },
 });
 
