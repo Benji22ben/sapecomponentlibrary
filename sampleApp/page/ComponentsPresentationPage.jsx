@@ -1,5 +1,9 @@
 import React from 'react';
-import {Button, TouchableOpacity, TouchableHighlight} from '../lib';
+import {
+  Button,
+  TouchableOpacity,
+  TouchableHighlight,
+} from 'sape-react-native-components';
 import {ScrollView, View, useColorScheme, StyleSheet, Text} from 'react-native';
 
 function ComponentsPresentationPage(Colors) {
