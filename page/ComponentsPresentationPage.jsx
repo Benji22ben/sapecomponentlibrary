@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, TouchableOpacity} from '../lib';
+import {Button, TouchableOpacity, TouchableHighlight} from '../lib';
 import {ScrollView, View, useColorScheme, StyleSheet, Text} from 'react-native';
 
 function ComponentsPresentationPage(Colors) {
@@ -18,10 +18,13 @@ function ComponentsPresentationPage(Colors) {
           styles.container,
           {backgroundColor: isDarkMode ? Colors.black : Colors.white},
         ]}>
-        <Button>Coucou</Button>
-        <TouchableOpacity>
-          <Text>Coucou</Text>
-        </TouchableOpacity>
+        <Button>Button</Button>
+        <TouchableOpacity text="TouchableOpacity" />
+        <TouchableHighlight
+          onPress={() => console.log('Needed to see highlight')}
+          invertedColors
+          text="TouchableHighlight (inverted colors)"
+        />
       </View>
     </ScrollView>
   );
@@ -32,6 +35,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    gap: 10,
+    paddingTop: 50,
   },
 });
 

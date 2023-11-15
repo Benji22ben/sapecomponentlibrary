@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Century Gothic Bold Italic.otf",
+      "sha1": "7bd7c49fe89fdbfa4baa60dd7ae9d774bf1667bf"
+    },
+    {
+      "path": "assets/fonts/Century Gothic Bold.otf",
+      "sha1": "ed33e1307a491d78eadea9f5c62e021b94f339d1"
+    },
+    {
+      "path": "assets/fonts/Century Gothic Italic.otf",
+      "sha1": "0fa62072bd6cc06a002fa71f5ed86db39dc5aa4b"
+    },
+    {
+      "path": "assets/fonts/Century Gothic.otf",
+      "sha1": "8f77dcba946e3703813eee2e91d74b5ee3807b23"
+    }
+  ]
+}
