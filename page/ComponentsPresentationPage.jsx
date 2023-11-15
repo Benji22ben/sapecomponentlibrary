@@ -1,13 +1,6 @@
 import React from 'react';
-import {Button, TouchableOpacity} from '../lib';
-import {
-  ScrollView,
-  View,
-  useColorScheme,
-  StyleSheet,
-  Text,
-  TouchableHighlight,
-} from 'react-native';
+import {Button, TouchableOpacity, TouchableHighlight} from '../lib';
+import {ScrollView, View, useColorScheme, StyleSheet, Text} from 'react-native';
 
 function ComponentsPresentationPage(Colors) {
   const isDarkMode = useColorScheme() === 'dark';
