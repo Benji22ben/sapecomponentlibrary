@@ -10,6 +10,7 @@ const baseStyle = StyleSheet.create({
     paddingRight: 100,
     justifyContent: 'center',
     alignItems: 'center',
+    fontFamily: 'Century-Gothic',
   },
 });
 
