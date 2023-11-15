@@ -5788,9 +5788,10 @@ safe-regex-test@^1.0.0:
     get-intrinsic "^1.1.3"
     is-regex "^1.1.4"
 
-"sape-react-native-components@file:../npmComponents":
+sape-react-native-components@^0.1.0:
   version "0.1.0"
-  resolved "file:../npmComponents"
+  resolved "https://registry.npmjs.org/sape-react-native-components/-/sape-react-native-components-0.1.0.tgz"
+  integrity sha512-Y654RZxY0ediEKtoC5JsW6eipdk3zPH//wC/zlJNEyCOa6AqQDFJbhZ+d8NkGkM2k9HJ+FbDrsJMWTYbJTGqjg==
 
 scheduler@^0.23.0:
   version "0.23.0"
