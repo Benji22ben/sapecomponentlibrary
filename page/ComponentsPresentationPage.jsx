@@ -1,6 +1,13 @@
 import React from 'react';
 import {Button, TouchableOpacity} from '../lib';
-import {ScrollView, View, useColorScheme, StyleSheet, Text} from 'react-native';
+import {
+  ScrollView,
+  View,
+  useColorScheme,
+  StyleSheet,
+  Text,
+  TouchableHighlight,
+} from 'react-native';
 
 function ComponentsPresentationPage(Colors) {
   const isDarkMode = useColorScheme() === 'dark';
@@ -18,10 +25,13 @@ function ComponentsPresentationPage(Colors) {
           styles.container,
           {backgroundColor: isDarkMode ? Colors.black : Colors.white},
         ]}>
-        <Button>Coucou</Button>
+        <Button>Button</Button>
         <TouchableOpacity>
-          <Text>Coucou</Text>
+          <Text>TouchableOpacity</Text>
         </TouchableOpacity>
+        <TouchableHighlight>
+          <Text>TouchableHighlight</Text>
+        </TouchableHighlight>
       </View>
     </ScrollView>
   );

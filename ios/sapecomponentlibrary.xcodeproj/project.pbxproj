@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-sapecomponentlibrary-sapecomponentlibraryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-sapecomponentlibrary-sapecomponentlibraryTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		4D10B3A1B4A2498D99955016 /* Century Gothic Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE1A51B95A154BAABF7532A3 /* Century Gothic Bold Italic.otf */; };
+		3096430C27794154A8A12E87 /* Century Gothic Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2B9829E6B0B74A768D0D927B /* Century Gothic Bold.otf */; };
+		A5735916B4E84B29AF65EE3E /* Century Gothic Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA4E3966B67F443AB2A70731 /* Century Gothic Italic.otf */; };
+		CA6072DC86584CB8B8B97DCA /* Century Gothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F424C47670F4A4B992C6500 /* Century Gothic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = sapecomponentlibrary/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-sapecomponentlibrary-sapecomponentlibraryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sapecomponentlibrary-sapecomponentlibraryTests.release.xcconfig"; path = "Target Support Files/Pods-sapecomponentlibrary-sapecomponentlibraryTests/Pods-sapecomponentlibrary-sapecomponentlibraryTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CE1A51B95A154BAABF7532A3 /* Century Gothic Bold Italic.otf */ = {isa = PBXFileReference; name = "Century Gothic Bold Italic.otf"; path = "../assets/fonts/Century Gothic Bold Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B9829E6B0B74A768D0D927B /* Century Gothic Bold.otf */ = {isa = PBXFileReference; name = "Century Gothic Bold.otf"; path = "../assets/fonts/Century Gothic Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AA4E3966B67F443AB2A70731 /* Century Gothic Italic.otf */ = {isa = PBXFileReference; name = "Century Gothic Italic.otf"; path = "../assets/fonts/Century Gothic Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F424C47670F4A4B992C6500 /* Century Gothic.otf */ = {isa = PBXFileReference; name = "Century Gothic.otf"; path = "../assets/fonts/Century Gothic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				49CF3E90D4484ED4933F6A2E /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		49CF3E90D4484ED4933F6A2E /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				CE1A51B95A154BAABF7532A3 /* Century Gothic Bold Italic.otf */,
+				2B9829E6B0B74A768D0D927B /* Century Gothic Bold.otf */,
+				AA4E3966B67F443AB2A70731 /* Century Gothic Italic.otf */,
+				4F424C47670F4A4B992C6500 /* Century Gothic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4D10B3A1B4A2498D99955016 /* Century Gothic Bold Italic.otf in Resources */,
+				3096430C27794154A8A12E87 /* Century Gothic Bold.otf in Resources */,
+				A5735916B4E84B29AF65EE3E /* Century Gothic Italic.otf in Resources */,
+				CA6072DC86584CB8B8B97DCA /* Century Gothic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
