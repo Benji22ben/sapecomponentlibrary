@@ -1,0 +1,26 @@
+{
+  "name": "sape-react-native-components",
+  "version": "0.1.0",
+  "description": "Simple components package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Benji22ben/sapecomponentlibrary"},
+  "author": "MARQUES BALULA Benjamin",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.20.0",
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/preset-react": "^7.0.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6"
+  }
+}
